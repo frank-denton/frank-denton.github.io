@@ -2,7 +2,7 @@
   "name": "frank-denton.github.io",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://frank-denton.github.io/#",
+  "homepage": "https://frank-denton.github.io/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
