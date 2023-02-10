@@ -7,24 +7,20 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 function NavigationBar() {
 
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="/">Frank-Denton</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <Nav.Link href="/Vite+React">Info</Nav.Link>
+            <NavDropdown title="Projects" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="https://github.com/Unabatedlynx5/Capstone-Project" target="_blank" rel="noopener noreferrer">Capstone Project</NavDropdown.Item>
+              <NavDropdown.Item href="https://github.com/Unabatedlynx5/frank-denton" target="_blank" rel="noopener noreferrer">This Website</NavDropdown.Item>
+              <NavDropdown.Item href="https://github.com/Unabatedlynx5" target="_blank" rel="noopener noreferrer">My Github</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              <NavDropdown.Item href="/343" >Podcast</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>

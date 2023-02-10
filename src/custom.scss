@@ -1,0 +1,35 @@
+//Theme
+$primary: #203E4A;
+$secondary: #364935;
+$dark: #2c2c2c;
+$light: #DECDA3;
+$success: #0b62b8;
+$info: #759188;
+$warning: #F0D187;
+$danger: #C05D38;
+
+//Primary Variations
+$primary-dark: #1a323b;
+
+//Gold Variations
+$gold: #d4af37;
+$gold-dark: #b08f26;
+$gold-brand: #daa520;
+$gold-brand-dark: #ae841a;
+
+//Navabar Variations
+$navbar-dark-color: $gold;
+$navbar-dark-hover-color: $gold-dark;
+$navbar-dark-active-color: #111;
+$navbar-dark-disabled-color: #111;
+$navbar-dark-toggler-border-color: #111;
+$navbar-dark-brand-color: $gold-brand;
+$navbar-dark-brand-hover-color: $gold-brand-dark;
+
+//Navbar Dropdown Variations
+$dropdown-bg: $primary;
+$dropdown-link-color: $gold;
+$dropdown-link-hover-color: $gold-dark;
+$dropdown-link-hover-bg: $primary-dark;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
