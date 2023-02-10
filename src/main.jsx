@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Provider } from 'react-redux'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 
 import { store } from './app/store'
 import App from './App'
@@ -10,7 +10,7 @@ import './custom.scss'
 import Vite from './features/structure/Vite+React'
 import ErrorPage from './features/ErrorPage/error-page'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
