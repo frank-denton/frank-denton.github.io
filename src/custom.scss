@@ -7,6 +7,20 @@ $success: #0b62b8;
 $info: #759188;
 $warning: #F0D187;
 $danger: #C05D38;
+$custom-color: #858081;//537B6E
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "custom":     $custom-color
+);
+   
 
 //Primary Variations
 $primary-dark: #1a323b;
@@ -31,5 +45,7 @@ $dropdown-bg: $primary;
 $dropdown-link-color: $gold;
 $dropdown-link-hover-color: $gold-dark;
 $dropdown-link-hover-bg: $primary-dark;
+
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

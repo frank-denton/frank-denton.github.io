@@ -10,6 +10,7 @@ import NavigationBar from './features/Navbar/NavigationNar'
 import Vite from './features/structure/Vite+React'
 import ErrorPage from './features/ErrorPage/error-page'
 import About from './features/about/About'
+import Footer from './features/Navbar/Footer'
 
 function App() {
   const getURL = useLocation();
@@ -22,6 +23,7 @@ function App() {
         <Outlet />
       </div>
       {getURL.pathname === '/' && <About />}
+      <Footer/>
     </div>
   )
 }

@@ -9,12 +9,13 @@ import './index.css'
 import './custom.scss'
 import Vite from './features/structure/Vite+React'
 import ErrorPage from './features/ErrorPage/error-page'
+import NavigationBar from './features/Navbar/NavigationNar'
 
 const router = createHashRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <ErrorPage />,
+    errorElement: <><NavigationBar /><ErrorPage /></>,
     children: [
       {
         path: "Vite+React/",

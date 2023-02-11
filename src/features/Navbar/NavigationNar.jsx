@@ -21,8 +21,8 @@ function NavigationBar() {
               <Nav.Link>Info</Nav.Link>
             </LinkContainer>
             <NavDropdown title="Projects" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="https://github.com/Unabatedlynx5/Capstone-Project" target="_blank" rel="noopener noreferrer">Capstone Project</NavDropdown.Item>
-              <NavDropdown.Item href="https://github.com/Unabatedlynx5/frank-denton" target="_blank" rel="noopener noreferrer">This Website</NavDropdown.Item>
+              <NavDropdown.Item href="https://github.com/francis-denton/Capstone-Project" target="_blank" rel="noopener noreferrer">Capstone Project</NavDropdown.Item>
+              <NavDropdown.Item href="https://github.com/frank-denton/frank-denton.github.io" target="_blank" rel="noopener noreferrer">This Website</NavDropdown.Item>
               <NavDropdown.Item href="https://github.com/Unabatedlynx5" target="_blank" rel="noopener noreferrer">My Github</NavDropdown.Item>
               <NavDropdown.Divider />
               <LinkContainer to='/343'>
