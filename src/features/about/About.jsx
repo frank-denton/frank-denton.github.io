@@ -17,7 +17,7 @@ function About() {
         <h2>This website was created by: Frank Denton</h2><br></br><br></br>
         <Row className='d-flex align-items-center'>
             <Col m={6}>
-                <Image width="100%" src={profile} roundedCircle></Image>
+                <Image width="100%" hight="100%" src={profile} roundedCircle></Image>
             </Col>
             <Col xs={5} className='align-middle'>
                 <h4>About me:</h4>
