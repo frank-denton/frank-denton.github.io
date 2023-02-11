@@ -19,7 +19,7 @@ function About() {
             <Col xl={6}>
                 <Image width="100%" hight="100%" src={profile} roundedCircle></Image>
             </Col>
-            <Col xs={5} className='align-middle'>
+            <Col xl className='align-middle'>
                 <h4>About me:</h4>
                 <br></br>
                 <p className='text-info'>I am currently attending Totino-Grace High School as a Senior. During my time here, I have been involved in great college-prep classes and opportunities. I have been in First Robotics Competition for 4 years, where I have learned how to program and create solutions to unique challenges every year. This year I am working on computer vision for the robot. During Robotics, I was able to meet some amazing sponsors at Delkor and Minnetronix. I also attended the E3 institute where I learned the design process, and how to think critically and execute solutions. I was also able to get real-world experience with a mentor. I was able to shadow him at work and learn about the complexity and management it takes to design the products we use every day.  I am currently a part of S.O.A.R., a leadership group where I have learned how to be a servant leader and how to focus on my mentality to help our team. Outside of School, I am working at Dairy Queen where I am able to learn how to work in a fast-paced environment with others.</p>
