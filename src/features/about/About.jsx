@@ -51,6 +51,7 @@ function About() {
                 <li>Redux</li>
                 <li>NodeJS</li>
             </ul>
+            <br></br>
             <h5 >Java:</h5>
             <p>Robotics and AP Computer Science.</p>
         </div>

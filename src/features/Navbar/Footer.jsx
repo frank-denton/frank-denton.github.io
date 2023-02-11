@@ -1,4 +1,6 @@
 import React from "react"
+import Button from "react-bootstrap/Button"
+import { LinkContainer } from "react-router-bootstrap"
 
 const Footer = () => <footer className="page-footer font-small blue pt-4 bg-primary">
     <div className="container-fluid text-center text-md-left">
@@ -13,19 +15,19 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 bg-prim
             <div className="col-md-3 mb-md-0 mb-3">
                 <h5 className="text-uppercase">Links</h5>
                 <ul className="list-unstyled">
-                    <li><a href="#!">Link 1</a></li>
-                    <li><a href="#!">Link 2</a></li>
-                    <li><a href="#!">Link 3</a></li>
-                    <li><a href="#!">Link 4</a></li>
+                    <li><Button variant='link'>LinkedIn</Button></li>
+                    <li><Button variant='link'>Instagram</Button></li>
+                    <li><Button variant='link'>Twitter</Button></li>
+                    <li><Button variant='link'>Github</Button></li>
                 </ul>
             </div>
             <div className="col-md-3 mb-md-0 mb-3">
                 <h5 className="text-uppercase">Links</h5>
                 <ul className="list-unstyled">
-                    <li><a href="#!">Link 1</a></li>
-                    <li><a href="#!">Link 2</a></li>
-                    <li><a href="#!">Link 3</a></li>
-                    <li><a href="#!">Link 4</a></li>
+                    <li><Button variant='link' onClick={() => window.location = 'mailto:frankrobertdenton@gmail.com'}>Email</Button></li>
+                    <li><Button variant='link'>School</Button></li>
+                    <li><Button variant='link'>Podcast</Button></li>
+                    <LinkContainer to='/234'><li><Button variant='link'>Fun!</Button></li></LinkContainer>
                 </ul>
             </div>
         </div>
