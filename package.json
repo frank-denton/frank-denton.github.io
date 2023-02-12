@@ -9,7 +9,8 @@
     "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev-host": "vite --host"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
