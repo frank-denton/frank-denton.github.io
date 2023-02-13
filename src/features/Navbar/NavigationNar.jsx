@@ -16,7 +16,7 @@ function NavigationBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
+            {/* <Nav.Link href="#features">Features</Nav.Link> */}
             <LinkContainer to="/Vite+React">
               <Nav.Link>Info</Nav.Link>
             </LinkContainer>
@@ -25,17 +25,17 @@ function NavigationBar() {
               <NavDropdown.Item href="https://github.com/frank-denton/frank-denton.github.io" target="_blank" rel="noopener noreferrer">This Website</NavDropdown.Item>
               <NavDropdown.Item href="https://github.com/Unabatedlynx5" target="_blank" rel="noopener noreferrer">My Github</NavDropdown.Item>
               <NavDropdown.Divider />
-              <LinkContainer to='/343'>
+              {/* <LinkContainer to='/343'>
               <NavDropdown.Item>Podcast</NavDropdown.Item>
-              </LinkContainer>
+              </LinkContainer> */}
             </NavDropdown>
           </Nav>
-          <Nav>
+          {/* <Nav>
             <Nav.Link href="#deets">More deets</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
               Dank memes
             </Nav.Link>
-          </Nav>
+          </Nav> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

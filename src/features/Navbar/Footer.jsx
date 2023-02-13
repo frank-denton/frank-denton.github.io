@@ -13,7 +13,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 bg-prim
             {/* <hr className="clearfix w-100 d-md-none pb-0"/> */}
 
             <div className="col-md-3 mb-md-0 mb-3">
-                <h5 className="text-uppercase">Links</h5>
+                {/* <h5 className="text-uppercase">Links</h5> */}
                 <ul className="list-unstyled">
                     <li><Button variant='link' href='https://www.linkedin.com/in/frank-denton-423b4120a/' target="_blank" rel="noopener noreferrer">LinkedIn</Button></li>
                     {/* <li><Button variant='link'>Instagram</Button></li> */}
@@ -22,7 +22,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 bg-prim
                 </ul>
             </div>
             <div className="col-md-3 mb-md-0 mb-3">
-                <h5 className="text-uppercase">Links</h5>
+                {/* <h5 className="text-uppercase">Links</h5> */}
                 <ul className="list-unstyled">
                     <li><Button variant='link' onClick={() => window.location = 'mailto:frankrobertdenton@gmail.com'}>Email</Button></li>
                     <li><Button variant='link' href='https://www.totinograce.org/' target="_blank" rel="noopener noreferrer">School</Button></li>
